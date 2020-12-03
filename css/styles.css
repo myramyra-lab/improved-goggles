@@ -1,0 +1,67 @@
+.wrapper{
+    background-color: rgb(234, 234, 240);
+}
+#topbar {
+    display: inline-flex;
+    list-style: row;
+    max-height: 100px;
+    width: 100%; 
+}
+.vertical{
+    border-left: 1px solid black;
+    height: 35px;
+    margin-top:20px;
+}
+span img{
+    width:20px;
+    height: 20px;
+    border-radius: 100%;
+    margin-top: 0px;
+}
+.currency{
+    padding:15px;
+}
+.currencyfigure{
+    display: inline-block;
+}
+.notifications img{
+    width: 60px;
+    height: 60px;
+    padding: 10px;
+    margin-top:25px;
+}
+.profile img{
+    border-radius: 100%;
+    width: 40px;
+    height: 50px;
+    margin-left:100px;
+    top: 0px;
+    /* position: relative; */
+}
+#secondbar{
+    display: inline-flex;
+    max-height:100px;
+    background-color: white;
+    width: 100%;
+}
+#secondbar p{
+    padding: 30px;
+}
+#secondbar input[type=text]{
+    position: absolute;
+    float: right;
+    padding: 6px;
+    height: 10px;
+    margin-top: 20px;
+}
+#secondbar .search-container button {
+    position: relative;
+    float: right;
+    /* padding: 6px 10px; */
+    margin-top: 20px;
+    margin-right: 0px;
+    background: #ddd;
+    font-size: 17px;
+    border: none;
+    cursor: pointer;
+  }
